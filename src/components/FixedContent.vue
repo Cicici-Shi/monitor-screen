@@ -20,8 +20,8 @@ let ready = ref(false)
 let scaleCoeff = ref('')
 
 const initConfig = () => {
-  let width = ref(1920 * 0.96)
-  let height = ref(1080 * 0.96)
+  let width = ref(1920)
+  let height = ref(1111)
 
   allWidth.value = width.value
   allHeight.value = height.value

@@ -151,13 +151,15 @@
             </div>
             <div class="operation-container">
               <ul>
-                <li />
                 <li>
                   <p>{{ currentObj.delayDetails.db_name }}</p>
                   <p>{{ currentObj.delayDetails.desc }}</p>
                 </li>
               </ul>
-              <div class="date">
+              <div
+                class="date"
+                style="padding-left: 20px"
+              >
                 {{ currentObj.delayDetails.delay_time }}
               </div>
             </div>
@@ -712,7 +714,7 @@ const result = reactive({
     query_count: 32668097,
     api_row_count: 3209097687,
   },
-  currentTime: dayjs().format('YYYY-MM-DD') + ' 00:00至23:59',
+  currentTime: dayjs().format('YYYY-MM-DD') + ' 00:00 至 23:59',
   databaseOverview: [
     {
       title: 'T0数据库',
@@ -1288,7 +1290,7 @@ currentObj.delayDetails = result.synMonitoring[0]
       top: 13px;
       .logo-name {
         font-size: 28px;
-        background-image: -webkit-linear-gradient(left, #fff, #c8fae9);
+        background-image: linear-gradient(to right, #ffffff, #c8fae9, #60dbb3);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
