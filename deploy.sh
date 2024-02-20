@@ -20,6 +20,5 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:Cicici-Shi/monitor-screen.git main:gh-pages
-
+git push -f git@github.com:cicici-shi/monitor-screen.git main:gh-pages
 cd -
