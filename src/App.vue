@@ -1,22 +1,20 @@
 <template>
-  <router-view></router-view>
+  <router-view />
 </template>
 
 <script>
-
 export default {
   name: 'App',
-  components: {
-  }
+  components: {},
 }
 </script>
 
 <style>
-html{
+html {
   height: 100%;
- }
+}
 body {
-  margin:0;
+  margin: 0;
   height: 100%;
 }
 #app {
