@@ -35,14 +35,12 @@ const initConfig = () => {
 const setAppScale = () => {
   let baseRate = ref((allWidth.value / allHeight.value).toFixed(5))
   let currentRate = ref((window.innerWidth / window.innerHeight).toFixed(5))
-  console.log(2)
   //以高为准
   if (currentRate.value > baseRate.value) {
-    scaleCoeff.value = (window.innerHeight / allHeight).toFixed(5)
-    fixedContent.value.style.transform = `scale(${scaleCoeff}) transform(-50%, -50%)`
+    scaleCoeff.value = (window.innerHeight / allHeight.value).toFixed(5)
+    fixedContent.value.style.transform = `scale(${scaleCoeff.value}) translate(-50%, -50%)`
   } else {
     //以宽为准
-    console.log(ready.value)
     scaleCoeff.value = (window.innerWidth / allWidth.value).toFixed(5)
     if (fixedContent.value) {
       fixedContent.value.style.transform = `scale(${scaleCoeff.value}) translate(-50%, -50%)`
@@ -59,7 +57,6 @@ const afterAutoResizeInit = () => {
   setAppScale()
 
   ready.value = true
-  console.log(1)
 }
 
 import debounce from 'lodash.debounce'
@@ -87,7 +84,6 @@ let domObserver = ref('')
 const initWH = (resize = true) => {
   return new Promise((resolve) => {
     nextTick(() => {
-      // const dom = dom.value;
       const dom = fixedContent.value
       width.value = dom ? dom.clientWidth : 0
       height.value = dom ? dom.clientWidth : 0

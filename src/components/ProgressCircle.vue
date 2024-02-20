@@ -76,13 +76,11 @@ const strokeDashoffset = computed(() => {
   } else if (copyRate < 0) {
     copyRate = 0
   }
-  console.log(copyRate)
   if (props.strokeLineCap === 'round') {
     val = 2 * Math.PI * radius.value * (1 - copyRate) + props.strokeWidth
   } else {
     val = 2 * Math.PI * radius.value * (1 - copyRate)
   }
-  console.log(val)
   return val
 })
 </script>
