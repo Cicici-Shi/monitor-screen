@@ -1,71 +1,71 @@
-# 大屏数据可视化 📊🖥️
+# Big Screen Data Visualization 📊🖥️
 
-这是一个用于展示实时数据和统计信息的大屏数据可视化应用。项目采用 Vue3 构建前端架构，利用 Echarts5 绘制图表和数据可视化效果，并通过 Sass 进行样式预处理。动画效果由 GSAP 提供支持，vue-seamless-scroll 插件用于实现数据的无缝滚动展示。
+This application is designed for big screen data visualization, showcasing real-time data and statistical information. The project is built with Vue3 for the frontend architecture, utilizes Echarts5 for charting and data visualization, styles with Sass for pre-processing CSS, GSAP for smooth animation effects, and vue-seamless-scroll plugin for seamless scrolling of data.
 
-## 特点 🌟
+## Features 🌟
 
-- **大屏适配**📐：设计与实现了响应式布局，确保可视化在不同尺寸的大屏上均可良好展示。
-- **动画效果**💫：使用 GSAP (GreenSock Animation Platform) 为数据变化提供平滑的动画效果。
-- **无缝滚动**🔄：采用 vue-seamless-scroll 插件实现数据的连续滚动显示。
+- **Big Screen Adaptation**📐: Designed and implemented responsive layouts to ensure visualization displays well on various screen sizes.
+- **Animation Effects**💫: GSAP (GreenSock Animation Platform) is used to provide smooth transitions for data changes.
+- **Seamless Scrolling**🔄: The vue-seamless-scroll plugin allows for the continuous scrolling display of data.
 
-## 安装指南 📦
+## Installation Guide 📦
 
-要在本地安装和运行此项目，请按照以下步骤操作：
+To install and run this project locally, follow these steps:
 
-### 环境设置 🛠️
+### Environment Setup 🛠️
 
-首先确保您已经安装了 `node.js` 和 `npm`。然后克隆仓库到本地：
+Ensure that you have `node.js` and `npm` installed. Then clone the repository locally:
 
 ```bash
 git clone https://github.com/Cicici-Shi/monitor-screen.git
 ```
 
-### 依赖安装 📥
+### Dependency Installation 📥
 
-安装项目所需的依赖：
+Install the necessary dependencies for the project:
 
 ```bash
 npm install
 ```
 
-### 开发模式运行 🚀
+### Run in Development Mode 🚀
 
-为了在开发模式下运行应用，并启动热重载功能：
+To run the application in development mode with hot-reload:
 
 ```bash
 npm run serve
 ```
 
-### 构建生产环境 🏗️
+### Build for Production 🏗️
 
-为了编译和压缩生产环境的应用：
+To compile and minify the application for production:
 
 ```bash
 npm run build
 ```
 
-### Lint 和修复文件 🔍
+### Lint and Fix Files 🔍
 
-运行 lint 并自动修复源代码中的问题：
+Run lint to automatically fix issues in the source code:
 
 ```bash
 npm run lint
 ```
 
-## 配置 🔧
+## Configuration 🔧
 
-如果需要自定义配置，请参阅 [配置参考](https://cli.vuejs.org/config/).
+For custom configurations, see the [Configuration Reference](https://cli.vuejs.org/config/).
 
-## 贡献 👥
+## Contribution 👥
 
-我们欢迎任何形式的贡献。如果你想要贡献代码，请:
+We welcome contributions of all forms. If you wish to contribute code:
 
-1. Fork 仓库。
-2. 创建一个新的分支 (`git checkout -b feature-xyz`).
-3. 提交你的修改 (`git commit -am 'Add some feature'`).
-4. 推送到分支 (`git push origin feature-xyz`).
-5. 创建一个新的 Pull Request。
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-xyz`).
+3. Commit your changes (`git commit -am 'Add some feature'`).
+4. Push to the branch (`git push origin feature-xyz`).
+5. Create a new Pull Request.
 
-## 许可 📄
+## License 📄
 
 [MIT](LICENSE)
