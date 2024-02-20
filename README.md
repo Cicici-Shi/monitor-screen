@@ -1,6 +1,6 @@
 # Big Screen Data Visualization 📊🖥️
 
-This application is designed for big screen data visualization, showcasing real-time data and statistical information. The project is built with Vue3 for the frontend architecture, utilizes Echarts5 for charting and data visualization, styles with Sass for pre-processing CSS, GSAP for smooth animation effects, and vue-seamless-scroll plugin for seamless scrolling of data.
+This application is designed for big screen data visualization, showcasing real-time data and statistical information. The project is built with **Vue3** for the frontend architecture, utilizes **Echarts5** for charting and data visualization, styles with **Sass** for pre-processing CSS, **GSAP** for smooth animation effects, and **vue-seamless-scroll** plugin for seamless scrolling of data.
 
 ## Features 🌟
 
